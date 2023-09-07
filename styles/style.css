@@ -85,7 +85,6 @@ body {
     background-image: url('../Images/Background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: var(--lightgray); */
     gap: 20px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -144,6 +143,7 @@ h2 {
 .about-text h4 {
     font-size: 24px;
     font-style: italic;
+    font-family: "Quicksand", sans-serif;
     color: var(--lightash);
     margin-bottom: 10px;
 }
@@ -163,7 +163,6 @@ p {
 }
 
 .more-info {
-    /* display: flex; */
     justify-content: space-around;
     margin-top: 30px;
 }
@@ -219,6 +218,7 @@ h4 {
     font-style: italic;
     color: var(--lightash);
     margin-bottom: 10px;
+    font-family: "Quicksand", sans-serif;
 }
 
 h2 {

@@ -55,7 +55,6 @@ nav {
 .menu a {
     text-decoration: none;
     color: var(--darkgray);
-    /* font-weight: bold; */
     font-size: 20px;
 }
 
@@ -86,6 +85,7 @@ nav {
     height: 50vh;
 }
 
+
 .hero h1 {
     font-size: 2rem;
     margin-top: 20px;
@@ -94,179 +94,108 @@ nav {
     font-weight: 800;
 }
 
-/* About Section Styling */
-.about-container {
-    background-color: var(--white);
-    padding: 20px;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.container img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 20px;
-}
-
-.text {
-    flex: 1;
-    text-align: left;
-}
-
-.text h3 {
-    font-size: 1.5rem;
-    font-style: italic;
-    color: var(--lightash);
-}
-
-.text h2 {
-    font-size: 2.2rem;
-}
-
-.text p {
-    margin-top: 10px;
-    font-size: 1rem;
-}
-
-.more-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.info {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.info img {
-    width: 30px;
-    margin-right: 10px;
-}
-
-.info p {
-    font-size: 1rem;
-    text-transform: capitalize;
-}
-
-/*Choose Us Section Styling */
-.choose-container {
-    background-color: var(--lightgray);
-    padding: 20px;
-}
-
-.why-us {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.left-text {
-    flex: 1;
-    text-align: left;
-    padding: 20px;
-}
-
-.left-text h3 {
-    font-size: 1.4rem;
-    font-style: italic;
-    font-family: "Quicksand", sans-serif;
-}
-
-.left-text h1 {
-    font-size: 2.2rem;
-    margin-top: 10px;
-}
-
-.left-text p {
-    font-size: 1.3rem;
-    margin-top: 10px;
-    line-height: 1.7rem;
-}
-
-.why-us img {
-    max-width: 100%;
-    height: auto;
-    margin-left: 20px;
-}
-
-/* Offer Section  Styling*/
-.offer-container {
-    background-color: var(--darkgray);
-    padding: 20px;
-}
-
-.offer {
+/* CSS for Products Section */
+.products-container {
+    background-color: #fafafa; 
+    padding: 40px 0; 
+  }
+  
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
+    max-width: 1200px; 
+    margin: 4rem auto;
+  }
 
-.offer h4 {
-    font-size: 1.2rem;
-    color: var(--lightash);
+  .products-container h5 {
+    font-size: 1.2rem; 
+    color: var(--lightash); 
     font-style: italic;
     font-family: "Quicksand", sans-serif;
-}
-
-.offer h1 {
-    font-size: 2rem;
+  }
+  
+  .products-container h1 {
+    font-size: 2.2rem; 
     margin-top: 10px;
-    color: var(--white);
-}
+    color: var(--darkgray);
+    text-transform: capitalize;
+  }
 
-.card-container {
+  .product-details {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap; 
     margin-top: 20px;
-}
+  }
 
-.card {
+  .info {
     flex: 1;
     padding: 20px;
     text-align: center;
-    background-color: var(--white);
-    margin: 10px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    border-radius: .7rem;
-    height: 20vh;
-    width: 15vw;
-}
+  }
 
-.card-detail {
+  .details img {
+    width: 50px; 
+    margin-top: 1.5rem;
+  }
+  
+  .details h5 {
+    font-size: 1rem; 
+    margin-top: 10px;
+    color: var(--darkgray);
+    text-transform: capitalize;
+  }
+  
+  .details p {
+    font-size: 1rem; 
+    margin-top: 10px;
+    color: var(--gray);
+  }
+
+  /*  Everyday Fresh & Clean Section Styling */
+.extra-container {
+   background-image: url('../Images/flower.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    padding: 40px 0;
+    text-align: center;
     margin: 0 auto;
-}
+    height: 60vh;
+  }
 
-.card img {
-    width: 120px;
-    height: 100px;
-}
+  .extra-text {
+    margin-top: 5rem;
+  }
 
-.card p {
-    font-size: 1.2rem;
+  .extra-container h5 {
+    font-size: 1.5rem; 
+    color: var(--lightash);
+    font-style: italic;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .extra-container h1 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-top: 10px;
+    color: var(--darkgray);
+  }
+
+  .extra-container p {
+    font-size: 1rem; 
     margin-top: 20px;
-    color: var(--white);
-}
+    color: var(--gray); 
+  }
+
+  .extra-container img {
+    width: 60px; 
+    margin-top: 20px;
+  }
 
 /* Footer Section Styling */
 footer {
@@ -285,7 +214,7 @@ footer {
 }
 
 .footer-info {
-    /* flex: 1; */
+    flex: 1;
     max-width: 400px;
 }
 
@@ -368,7 +297,7 @@ h2 {
         top: 70px;
         left: 0;
         right: 0;
-        background-color: #fff;
+        background-color: var(--white);
         z-index: 1;
         padding: 20px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -401,11 +330,9 @@ h2 {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .container,
-    .why-us {
-        display: flex;
-        flex-direction: column;
-    }
+    .extra-text {
+        margin-top: 2rem;
+      }
 
     .footer-container {
         flex-direction: column;
@@ -426,16 +353,24 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
-    .card-container {
-        display: flex;
-        flex-direction: column;
+    .products-container h1 {
+        font-size: 1.7rem;
     }
 
-    .card {
-        width: auto;
-    }
+    .pork img {
+        margin: 0;
+        width: 80%;
+      }
 
-    .card p {
-        color: var(--darkgray);
-    }
+      .extra-container {
+        height: 100vh;
+      }
+
+      .extra-container h1 {
+        font-size: 1.7rem;
+      }
+
+      .extra-container p {
+        padding: 0 .6rem;
+      }
 }
