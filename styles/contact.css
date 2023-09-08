@@ -94,86 +94,86 @@ nav {
 
 /* Contact Us Section Styling */
 .contact-container {
-    background-color: var(--white); 
-    padding: 40px 0; 
+    background-color: var(--white);
+    padding: 40px 0;
     margin: 0 auto;
     display: flex;
     align-items: center;
-  }
-  
-  .image img {
-    max-width: 100%; 
-    height: auto; 
-  }
-  
-  .info-text {
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-text {
     text-align: center;
     margin-top: 20px;
-  }
-  
-  .info-text h1 {
-    font-size: 2rem; 
+}
+
+.info-text h1 {
+    font-size: 2rem;
     color: var(--darkgray);
     margin: 10px 0;
-  }
-  
-  .info-text p {
+}
+
+.info-text p {
     font-size: 1rem;
-    color: var(--darkgray); 
-  }
-  
-  .contact-card {
+    color: var(--darkgray);
+}
+
+.contact-card {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     margin-top: 20px;
-  }
-  
-  .card {
+}
+
+.card {
     flex: 1;
     padding: 10px;
-    background-color: var(--white); 
-    border: 1px solid #ddd; 
+    background-color: var(--white);
+    border: 1px solid #ddd;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    margin: 5px; 
-  }
-  
-  .card h4 {
-    font-size: 1rem; 
-    color: var(--darkgray); 
-  }
-  
-  .card p {
-    font-size: 0.9rem; 
-    color: #777; 
-  }
-  
-  .icon {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+}
+
+.card h4 {
+    font-size: 1rem;
+    color: var(--darkgray);
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.icon {
     margin-top: 10px;
     display: flex;
     justify-content: center;
-  }
-  
-  .icon span {
-    margin: 0 5px; 
+}
+
+.icon span {
+    margin: 0 5px;
     border: 3px solid var(--lightgray);
     border-radius: 50%;
     padding: .3rem .7rem;
     background-color: rgb(250, 243, 243);
-  }
+}
 
-  /* Location Section Styling */
+/* Location Section Styling */
 .location-container {
-    padding: 40px 0; 
+    padding: 40px 0;
     margin: 0 auto;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
-  
-  .location {
+}
+
+.location {
     display: flex;
     flex: 1;
     background-image: url('../Images/Background.png');
@@ -181,107 +181,107 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
-  }
-  
-  .location-card {
-    background-color: var(--white); 
+}
+
+.location-card {
+    background-color: var(--white);
     border-radius: 1rem;
     padding: 40px;
     text-align: left;
     margin-left: auto;
     width: 40%;
-  }
-  
-  .card-details h5 {
-    font-size: 1.5rem; 
-    color: var(--lightash); 
+}
+
+.card-details h5 {
+    font-size: 1.5rem;
+    color: var(--lightash);
     margin: 0;
     font-family: "Quicksand", sans-serif;
     font-style: italic;
-  }
-  
-  .card-details h1 {
-    font-size: 2rem; 
+}
+
+.card-details h1 {
+    font-size: 2rem;
     color: var(--darkgray);
     margin: 10px 0;
-  }
-  
-  .card-details p {
-    font-size: 1rem; 
-    color: var(--darkgray); 
+}
+
+.card-details p {
+    font-size: 1rem;
+    color: var(--darkgray);
     margin: 10px 0;
-  }
-  
-  ul {
+}
+
+ul {
     list-style: none;
     padding: 0;
-  }
-  
-  ul li .fa-solid {
+}
+
+ul li .fa-solid {
     border: 3px solid var(--lightgray);
     border-radius: 50%;
     padding: .6rem .7rem;
     background-color: rgb(216, 203, 203);
-  }
-  
-  ul li {
-    display: flex;
-    align-items: center; 
-    margin-bottom: 10px;
-  }
-  
-  ul li span {
-    margin-right: 10px;
-  }
-  
-  ul li a {
-    color: var(--darkgray); 
-  }
+}
 
-  /* Contact Form Styling */
+ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+ul li span {
+    margin-right: 10px;
+}
+
+ul li a {
+    color: var(--darkgray);
+}
+
+/* Contact Form Styling */
 .contact-form {
-    background-color: var(--white); 
+    background-color: var(--white);
     padding: 40px 0;
     /* max-width: 1200px;  */
-    margin: 0 auto; 
+    margin: 0 auto;
     display: flex;
     justify-content: center;
-  text-align: center;
-  }
-  
-  .container {
+    text-align: center;
+}
+
+.container {
     width: 100%;
-    max-width: 600px; 
+    max-width: 600px;
     padding: 20px;
     display: flex;
-  justify-content: center;
-  text-align: center;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column; 
-  }
+    justify-content: center;
+    text-align: center;
+}
 
-  /* .row {
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .row {
     display: flex;
     flex-direction: row;
     gap: 1.6rem;
     width: 150%;
   } */
-  
-  .form-field {
+
+.form-field {
     margin-bottom: 20px;
-  }
-  
-  label {
-    font-size: 1rem; 
-    color: var(--darkgray); 
-    font-weight: bold; 
+}
+
+label {
+    font-size: 1rem;
+    color: var(--darkgray);
+    font-weight: bold;
     /* text-align: left; */
-  }
-  
-  input[type="text"] {
+}
+
+input[type="text"] {
     width: 100%;
     padding: 20px;
     border: 1px solid var(--lightash);
@@ -289,18 +289,19 @@ nav {
     font-size: 1rem;
     color: var(--lightgray);
     margin-top: 5px;
-  }
+}
 
-  #message {
-   padding: 100px;
-  }
-  /* #email, #company {
+#message {
+    padding: 100px;
+}
+
+/* #email, #company {
     width: 90%;
   } */
-  
-  input[type="button"] {
-    background-color: var(--darkgray); 
-    color: var(--white); 
+
+input[type="button"] {
+    background-color: var(--darkgray);
+    color: var(--white);
     border: none;
     padding: 20px;
     border-radius: 8px;
@@ -308,15 +309,15 @@ nav {
     cursor: pointer;
     width: 30%;
     font-weight: bold;
-    transition: var(--lightash) 0.3s; 
+    transition: var(--lightash) 0.3s;
     margin: auto;
-  }
-  
-  input[type="button"]:hover {
+}
+
+input[type="button"]:hover {
     background-color: var(--gray);
-  }
-  
-  
+}
+
+
 
 /* Footer Section Styling */
 footer {
@@ -483,7 +484,7 @@ h2 {
         font-size: 1.3rem;
         padding: 0 10px;
     }
-    
+
     .location-card {
         width: 80%;
     }
