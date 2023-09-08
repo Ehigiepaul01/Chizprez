@@ -108,6 +108,7 @@ h4 {
     font-size: 24px;
     color: var(--lightash);
     font-style: italic;
+    font-family: "Quicksand", sans-serif;
     margin-bottom: 10px;
 }
 
@@ -443,3 +444,8 @@ h2 {
     }
   }
   
+  @media screen and (max-width:600px) {
+    .social-icon p {
+        line-height: 1.6rem;
+    }
+  }
