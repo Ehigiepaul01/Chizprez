@@ -360,6 +360,7 @@ h2 {
     .pork img {
         margin: 0;
         width: 80%;
+        border-radius: .5rem;
     }
 
     .extra-container {

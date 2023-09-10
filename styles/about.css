@@ -438,6 +438,14 @@ h2 {
         color: var(--darkgray);
     }
 
+    .left-text h1 {
+        font-size: 1.7rem;
+    }
+
+    .left-text p {
+        font-size: 1rem;
+    }
+
     .social-icon p {
         line-height: 1.6rem;
     }
